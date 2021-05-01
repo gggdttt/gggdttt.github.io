@@ -1,17 +1,23 @@
 ---
-title: Post with Header Image
+title: Python:List and Set
 tags: Python DataAnalysis
 article_header:
   type: cover
-  image:
-    src: https://github.com/gggdttt/ImageBeds/raw/master/headImage.jpg
 ---
 
 
 
+Here  we need ast. 
 
+```python
+from ast import literal_eval
 
-this is a try
+location_type = set([])
+for i in df_google_map['type']:
+    mlist = literal_eval(i)
+    for item in mlist:
+        location_type.add(item)
+```
 
 
 
