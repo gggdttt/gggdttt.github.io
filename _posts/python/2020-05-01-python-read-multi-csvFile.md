@@ -2,10 +2,8 @@
 title: Python:Read Multi Csv File as one dataFrame
 tags: Python 
 article_header:
-  type: Python Pandas
+  type: cover
 ---
-
-
 
 
 
