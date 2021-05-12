@@ -1,0 +1,995 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+
+</head>
+<body>
+    <div id="5c3f6a72de764af99717d07fccf65488" class="chart-container" style="width:900px; height:500px;"></div>
+    <script>
+        var chart_5c3f6a72de764af99717d07fccf65488 = echarts.init(
+            document.getElementById('5c3f6a72de764af99717d07fccf65488'), 'white', {renderer: 'canvas'});
+        var option_5c3f6a72de764af99717d07fccf65488 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "bar",
+            "name": "weight",
+            "legendHoverLink": true,
+            "data": [
+                {
+                    "name": "food",
+                    "value": 0.0815,
+                    "itemStyle": {
+                        "color": "#caf379"
+                    }
+                },
+                {
+                    "name": "health",
+                    "value": 0.0538,
+                    "itemStyle": {
+                        "color": "#adf379"
+                    }
+                },
+                {
+                    "name": "restaurant",
+                    "value": 0.0357,
+                    "itemStyle": {
+                        "color": "#799cf3"
+                    }
+                },
+                {
+                    "name": "store",
+                    "value": 0.0352,
+                    "itemStyle": {
+                        "color": "#79f3f3"
+                    }
+                },
+                {
+                    "name": "bar",
+                    "value": 0.031,
+                    "itemStyle": {
+                        "color": "#9079f3"
+                    }
+                },
+                {
+                    "name": "car_repair",
+                    "value": 0.0208,
+                    "itemStyle": {
+                        "color": "#79b9f3"
+                    }
+                },
+                {
+                    "name": "lodging",
+                    "value": 0.0201,
+                    "itemStyle": {
+                        "color": "#79f3c2"
+                    }
+                },
+                {
+                    "name": "finance",
+                    "value": 0.019,
+                    "itemStyle": {
+                        "color": "#f379b2"
+                    }
+                },
+                {
+                    "name": "school",
+                    "value": 0.0182,
+                    "itemStyle": {
+                        "color": "#f3799a"
+                    }
+                },
+                {
+                    "name": "home_goods_store",
+                    "value": 0.0173,
+                    "itemStyle": {
+                        "color": "#c679f3"
+                    }
+                },
+                {
+                    "name": "hair_care",
+                    "value": 0.0171,
+                    "itemStyle": {
+                        "color": "#bdf379"
+                    }
+                },
+                {
+                    "name": "lawyer",
+                    "value": 0.0161,
+                    "itemStyle": {
+                        "color": "#799ef3"
+                    }
+                },
+                {
+                    "name": "travel_agency",
+                    "value": 0.0154,
+                    "itemStyle": {
+                        "color": "#f3798f"
+                    }
+                },
+                {
+                    "name": "clothing_store",
+                    "value": 0.0154,
+                    "itemStyle": {
+                        "color": "#799cf3"
+                    }
+                },
+                {
+                    "name": "cafe",
+                    "value": 0.0144,
+                    "itemStyle": {
+                        "color": "#e6f379"
+                    }
+                },
+                {
+                    "name": "doctor",
+                    "value": 0.0132,
+                    "itemStyle": {
+                        "color": "#f38e79"
+                    }
+                },
+                {
+                    "name": "general_contractor",
+                    "value": 0.0131,
+                    "itemStyle": {
+                        "color": "#c279f3"
+                    }
+                },
+                {
+                    "name": "tourist_attraction",
+                    "value": 0.0119,
+                    "itemStyle": {
+                        "color": "#f379db"
+                    }
+                },
+                {
+                    "name": "physiotherapist",
+                    "value": 0.0117,
+                    "itemStyle": {
+                        "color": "#f37994"
+                    }
+                },
+                {
+                    "name": "liquor_store",
+                    "value": 0.0112,
+                    "itemStyle": {
+                        "color": "#f3ad79"
+                    }
+                },
+                {
+                    "name": "gym",
+                    "value": 0.011,
+                    "itemStyle": {
+                        "color": "#79f39d"
+                    }
+                },
+                {
+                    "name": "art_gallery",
+                    "value": 0.0105,
+                    "itemStyle": {
+                        "color": "#cdf379"
+                    }
+                },
+                {
+                    "name": "transit_station",
+                    "value": 0.0104,
+                    "itemStyle": {
+                        "color": "#f3aa79"
+                    }
+                },
+                {
+                    "name": "real_estate_agency",
+                    "value": 0.01,
+                    "itemStyle": {
+                        "color": "#bbf379"
+                    }
+                },
+                {
+                    "name": "local_government_office",
+                    "value": 0.0097,
+                    "itemStyle": {
+                        "color": "#d3f379"
+                    }
+                },
+                {
+                    "name": "university",
+                    "value": 0.0095,
+                    "itemStyle": {
+                        "color": "#79f384"
+                    }
+                },
+                {
+                    "name": "jewelry_store",
+                    "value": 0.0086,
+                    "itemStyle": {
+                        "color": "#79f3ef"
+                    }
+                },
+                {
+                    "name": "beauty_salon",
+                    "value": 0.0079,
+                    "itemStyle": {
+                        "color": "#f38e79"
+                    }
+                },
+                {
+                    "name": "electronics_store",
+                    "value": 0.0077,
+                    "itemStyle": {
+                        "color": "#d479f3"
+                    }
+                },
+                {
+                    "name": "electrician",
+                    "value": 0.0074,
+                    "itemStyle": {
+                        "color": "#f3ae79"
+                    }
+                },
+                {
+                    "name": "meal_takeaway",
+                    "value": 0.0072,
+                    "itemStyle": {
+                        "color": "#799cf3"
+                    }
+                },
+                {
+                    "name": "hospital",
+                    "value": 0.0071,
+                    "itemStyle": {
+                        "color": "#f3797f"
+                    }
+                },
+                {
+                    "name": "bakery",
+                    "value": 0.007,
+                    "itemStyle": {
+                        "color": "#f379db"
+                    }
+                },
+                {
+                    "name": "museum",
+                    "value": 0.0064,
+                    "itemStyle": {
+                        "color": "#797cf3"
+                    }
+                },
+                {
+                    "name": "bicycle_store",
+                    "value": 0.0064,
+                    "itemStyle": {
+                        "color": "#f379e1"
+                    }
+                },
+                {
+                    "name": "grocery_or_supermarket",
+                    "value": 0.0064,
+                    "itemStyle": {
+                        "color": "#79f38c"
+                    }
+                },
+                {
+                    "name": "park",
+                    "value": 0.0062,
+                    "itemStyle": {
+                        "color": "#79ecf3"
+                    }
+                },
+                {
+                    "name": "book_store",
+                    "value": 0.0059,
+                    "itemStyle": {
+                        "color": "#79f3bc"
+                    }
+                },
+                {
+                    "name": "dentist",
+                    "value": 0.0058,
+                    "itemStyle": {
+                        "color": "#f39879"
+                    }
+                },
+                {
+                    "name": "accounting",
+                    "value": 0.0057,
+                    "itemStyle": {
+                        "color": "#79f37f"
+                    }
+                },
+                {
+                    "name": "place_of_worship",
+                    "value": 0.0055,
+                    "itemStyle": {
+                        "color": "#d3f379"
+                    }
+                },
+                {
+                    "name": "car_rental",
+                    "value": 0.0054,
+                    "itemStyle": {
+                        "color": "#f079f3"
+                    }
+                },
+                {
+                    "name": "library",
+                    "value": 0.0053,
+                    "itemStyle": {
+                        "color": "#f3f179"
+                    }
+                },
+                {
+                    "name": "furniture_store",
+                    "value": 0.0053,
+                    "itemStyle": {
+                        "color": "#f379d4"
+                    }
+                },
+                {
+                    "name": "painter",
+                    "value": 0.0051,
+                    "itemStyle": {
+                        "color": "#f3d879"
+                    }
+                },
+                {
+                    "name": "amusement_park",
+                    "value": 0.0051,
+                    "itemStyle": {
+                        "color": "#f3bf79"
+                    }
+                },
+                {
+                    "name": "bank",
+                    "value": 0.005,
+                    "itemStyle": {
+                        "color": "#79f3a2"
+                    }
+                },
+                {
+                    "name": "church",
+                    "value": 0.0048,
+                    "itemStyle": {
+                        "color": "#7992f3"
+                    }
+                },
+                {
+                    "name": "supermarket",
+                    "value": 0.0044,
+                    "itemStyle": {
+                        "color": "#79f3d5"
+                    }
+                },
+                {
+                    "name": "parking",
+                    "value": 0.0043,
+                    "itemStyle": {
+                        "color": "#f37984"
+                    }
+                },
+                {
+                    "name": "spa",
+                    "value": 0.0042,
+                    "itemStyle": {
+                        "color": "#797af3"
+                    }
+                },
+                {
+                    "name": "bus_station",
+                    "value": 0.004,
+                    "itemStyle": {
+                        "color": "#9879f3"
+                    }
+                },
+                {
+                    "name": "police",
+                    "value": 0.0039,
+                    "itemStyle": {
+                        "color": "#79e7f3"
+                    }
+                },
+                {
+                    "name": "embassy",
+                    "value": 0.0038,
+                    "itemStyle": {
+                        "color": "#7df379"
+                    }
+                },
+                {
+                    "name": "movie_theater",
+                    "value": 0.0036,
+                    "itemStyle": {
+                        "color": "#79b3f3"
+                    }
+                },
+                {
+                    "name": "atm",
+                    "value": 0.0034,
+                    "itemStyle": {
+                        "color": "#79f3be"
+                    }
+                },
+                {
+                    "name": "insurance_agency",
+                    "value": 0.0032,
+                    "itemStyle": {
+                        "color": "#799af3"
+                    }
+                },
+                {
+                    "name": "cemetery",
+                    "value": 0.0031,
+                    "itemStyle": {
+                        "color": "#a079f3"
+                    }
+                },
+                {
+                    "name": "secondary_school",
+                    "value": 0.0031,
+                    "itemStyle": {
+                        "color": "#f3e879"
+                    }
+                },
+                {
+                    "name": "shoe_store",
+                    "value": 0.0031,
+                    "itemStyle": {
+                        "color": "#f37991"
+                    }
+                },
+                {
+                    "name": "mosque",
+                    "value": 0.003,
+                    "itemStyle": {
+                        "color": "#90f379"
+                    }
+                },
+                {
+                    "name": "florist",
+                    "value": 0.0029,
+                    "itemStyle": {
+                        "color": "#79c3f3"
+                    }
+                },
+                {
+                    "name": "meal_delivery",
+                    "value": 0.0029,
+                    "itemStyle": {
+                        "color": "#79f3a7"
+                    }
+                },
+                {
+                    "name": "car_wash",
+                    "value": 0.0028,
+                    "itemStyle": {
+                        "color": "#79f3b6"
+                    }
+                },
+                {
+                    "name": "night_club",
+                    "value": 0.0027,
+                    "itemStyle": {
+                        "color": "#f3f279"
+                    }
+                },
+                {
+                    "name": "aquarium",
+                    "value": 0.0024,
+                    "itemStyle": {
+                        "color": "#d6f379"
+                    }
+                },
+                {
+                    "name": "laundry",
+                    "value": 0.0024,
+                    "itemStyle": {
+                        "color": "#7990f3"
+                    }
+                },
+                {
+                    "name": "gas_station",
+                    "value": 0.0022,
+                    "itemStyle": {
+                        "color": "#f3d379"
+                    }
+                },
+                {
+                    "name": "storage",
+                    "value": 0.002,
+                    "itemStyle": {
+                        "color": "#f379b8"
+                    }
+                },
+                {
+                    "name": "courthouse",
+                    "value": 0.0018,
+                    "itemStyle": {
+                        "color": "#79aaf3"
+                    }
+                },
+                {
+                    "name": "moving_company",
+                    "value": 0.0018,
+                    "itemStyle": {
+                        "color": "#79f37e"
+                    }
+                },
+                {
+                    "name": "primary_school",
+                    "value": 0.0018,
+                    "itemStyle": {
+                        "color": "#f37f79"
+                    }
+                },
+                {
+                    "name": "convenience_store",
+                    "value": 0.0017,
+                    "itemStyle": {
+                        "color": "#ed79f3"
+                    }
+                },
+                {
+                    "name": "political",
+                    "value": 0.0017,
+                    "itemStyle": {
+                        "color": "#d4f379"
+                    }
+                },
+                {
+                    "name": "movie_rental",
+                    "value": 0.0016,
+                    "itemStyle": {
+                        "color": "#79a9f3"
+                    }
+                },
+                {
+                    "name": "premise",
+                    "value": 0.0015,
+                    "itemStyle": {
+                        "color": "#79f3c6"
+                    }
+                },
+                {
+                    "name": "pharmacy",
+                    "value": 0.0015,
+                    "itemStyle": {
+                        "color": "#79f3c2"
+                    }
+                },
+                {
+                    "name": "plumber",
+                    "value": 0.0013,
+                    "itemStyle": {
+                        "color": "#81f379"
+                    }
+                },
+                {
+                    "name": "locksmith",
+                    "value": 0.0012,
+                    "itemStyle": {
+                        "color": "#79f3e0"
+                    }
+                },
+                {
+                    "name": "casino",
+                    "value": 0.001,
+                    "itemStyle": {
+                        "color": "#e6f379"
+                    }
+                },
+                {
+                    "name": "hardware_store",
+                    "value": 0.0009,
+                    "itemStyle": {
+                        "color": "#79f3ac"
+                    }
+                },
+                {
+                    "name": "subway_station",
+                    "value": 0.0009,
+                    "itemStyle": {
+                        "color": "#e279f3"
+                    }
+                },
+                {
+                    "name": "funeral_home",
+                    "value": 0.0009,
+                    "itemStyle": {
+                        "color": "#79f39b"
+                    }
+                },
+                {
+                    "name": "drugstore",
+                    "value": 0.0008,
+                    "itemStyle": {
+                        "color": "#f3a979"
+                    }
+                },
+                {
+                    "name": "veterinary_care",
+                    "value": 0.0008,
+                    "itemStyle": {
+                        "color": "#d579f3"
+                    }
+                },
+                {
+                    "name": "stadium",
+                    "value": 0.0008,
+                    "itemStyle": {
+                        "color": "#f3798a"
+                    }
+                },
+                {
+                    "name": "city_hall",
+                    "value": 0.0008,
+                    "itemStyle": {
+                        "color": "#799bf3"
+                    }
+                },
+                {
+                    "name": "train_station",
+                    "value": 0.0007,
+                    "itemStyle": {
+                        "color": "#f3c979"
+                    }
+                },
+                {
+                    "name": "natural_feature",
+                    "value": 0.0007,
+                    "itemStyle": {
+                        "color": "#f379be"
+                    }
+                },
+                {
+                    "name": "pet_store",
+                    "value": 0.0006,
+                    "itemStyle": {
+                        "color": "#caf379"
+                    }
+                },
+                {
+                    "name": "roofing_contractor",
+                    "value": 0.0006,
+                    "itemStyle": {
+                        "color": "#8679f3"
+                    }
+                },
+                {
+                    "name": "post_office",
+                    "value": 0.0004,
+                    "itemStyle": {
+                        "color": "#f379c4"
+                    }
+                },
+                {
+                    "name": "car_dealer",
+                    "value": 0.0004,
+                    "itemStyle": {
+                        "color": "#99f379"
+                    }
+                },
+                {
+                    "name": "fire_station",
+                    "value": 0.0004,
+                    "itemStyle": {
+                        "color": "#f3d879"
+                    }
+                },
+                {
+                    "name": "shopping_mall",
+                    "value": 0.0003,
+                    "itemStyle": {
+                        "color": "#dc79f3"
+                    }
+                },
+                {
+                    "name": "zoo",
+                    "value": 0.0002,
+                    "itemStyle": {
+                        "color": "#b179f3"
+                    }
+                },
+                {
+                    "name": "locality",
+                    "value": 0.0002,
+                    "itemStyle": {
+                        "color": "#f3c079"
+                    }
+                },
+                {
+                    "name": "bowling_alley",
+                    "value": 0.0002,
+                    "itemStyle": {
+                        "color": "#7983f3"
+                    }
+                },
+                {
+                    "name": "department_store",
+                    "value": 0.0001,
+                    "itemStyle": {
+                        "color": "#79f3c4"
+                    }
+                },
+                {
+                    "name": "rv_park",
+                    "value": 0.0,
+                    "itemStyle": {
+                        "color": "#f39c79"
+                    }
+                },
+                {
+                    "name": "airport",
+                    "value": 0.0,
+                    "itemStyle": {
+                        "color": "#79f39c"
+                    }
+                }
+            ],
+            "showBackground": false,
+            "barMinHeight": 0,
+            "barCategoryGap": "1%",
+            "barGap": "30%",
+            "large": false,
+            "largeThreshold": 400,
+            "seriesLayoutBy": "column",
+            "datasetIndex": 0,
+            "clip": true,
+            "zlevel": 0,
+            "z": 2,
+            "label": {
+                "show": true,
+                "position": "top",
+                "margin": 8
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "weight"
+            ],
+            "selected": {
+                "weight": true
+            },
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "xAxis": [
+        {
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            },
+            "data": [
+                "food",
+                "health",
+                "restaurant",
+                "store",
+                "bar",
+                "car_repair",
+                "lodging",
+                "finance",
+                "school",
+                "home_goods_store",
+                "hair_care",
+                "lawyer",
+                "travel_agency",
+                "clothing_store",
+                "cafe",
+                "doctor",
+                "general_contractor",
+                "tourist_attraction",
+                "physiotherapist",
+                "liquor_store",
+                "gym",
+                "art_gallery",
+                "transit_station",
+                "real_estate_agency",
+                "local_government_office",
+                "university",
+                "jewelry_store",
+                "beauty_salon",
+                "electronics_store",
+                "electrician",
+                "meal_takeaway",
+                "hospital",
+                "bakery",
+                "museum",
+                "bicycle_store",
+                "grocery_or_supermarket",
+                "park",
+                "book_store",
+                "dentist",
+                "accounting",
+                "place_of_worship",
+                "car_rental",
+                "library",
+                "furniture_store",
+                "painter",
+                "amusement_park",
+                "bank",
+                "church",
+                "supermarket",
+                "parking",
+                "spa",
+                "bus_station",
+                "police",
+                "embassy",
+                "movie_theater",
+                "atm",
+                "insurance_agency",
+                "cemetery",
+                "secondary_school",
+                "shoe_store",
+                "mosque",
+                "florist",
+                "meal_delivery",
+                "car_wash",
+                "night_club",
+                "aquarium",
+                "laundry",
+                "gas_station",
+                "storage",
+                "courthouse",
+                "moving_company",
+                "primary_school",
+                "convenience_store",
+                "political",
+                "movie_rental",
+                "premise",
+                "pharmacy",
+                "plumber",
+                "locksmith",
+                "casino",
+                "hardware_store",
+                "subway_station",
+                "funeral_home",
+                "drugstore",
+                "veterinary_care",
+                "stadium",
+                "city_hall",
+                "train_station",
+                "natural_feature",
+                "pet_store",
+                "roofing_contractor",
+                "post_office",
+                "car_dealer",
+                "fire_station",
+                "shopping_mall",
+                "zoo",
+                "locality",
+                "bowling_alley",
+                "department_store",
+                "rv_park",
+                "airport"
+            ]
+        }
+    ],
+    "yAxis": [
+        {
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "gridIndex": 0,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": false,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
+                }
+            }
+        }
+    ],
+    "title": [
+        {
+            "text": "Weight Analysis",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ],
+    "dataZoom": [
+        {
+            "show": true,
+            "type": "slider",
+            "realtime": true,
+            "start": 20,
+            "end": 80,
+            "orient": "horizontal",
+            "zoomLock": false,
+            "filterMode": "filter"
+        },
+        {
+            "show": true,
+            "type": "inside",
+            "realtime": true,
+            "start": 20,
+            "end": 80,
+            "orient": "horizontal",
+            "zoomLock": false,
+            "filterMode": "filter"
+        }
+    ]
+};
+        chart_5c3f6a72de764af99717d07fccf65488.setOption(option_5c3f6a72de764af99717d07fccf65488);
+    </script>
+</body>
+</html>
