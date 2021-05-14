@@ -68,17 +68,17 @@ I hope you can find resonance here, and discover these delicious cookies in life
 
 We would be more surprised than this Pikachu when we consider why the code is wrong(Sometimes it may be why it is correct. )
 
-![QQ图片20210514042315](https://raw.githubusercontent.com/gggdttt/ImageBeds/master/QQ%E5%9B%BE%E7%89%8720210514042315.jpg)
+
+
+<img src="https://raw.githubusercontent.com/gggdttt/ImageBeds/master/QQ%E5%9B%BE%E7%89%8720210514042315.jpg" alt="pikachu" width="300" align="bottom" />
 
 Sometimes we would also find  how dumbfounding  the mistakes in our programs are.
 
-![QQ图片20210514042324](https://raw.githubusercontent.com/gggdttt/ImageBeds/master/QQ%E5%9B%BE%E7%89%8720210514042324.jpg)
-
-
+<img src="https://raw.githubusercontent.com/gggdttt/ImageBeds/master/QQ%E5%9B%BE%E7%89%8720210514042324.jpg" alt="cute_pikachu" width="300" align="bottom" />
 
 But just enjoy the feeling of creating so many funny things with a keyboard.
 
+<img src="https://raw.githubusercontent.com/gggdttt/ImageBeds/master/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20210514042524.jpg" alt="sunshine" width="300" align="bottom" />
 
 
-![微信图片_20210514042524](https://raw.githubusercontent.com/gggdttt/ImageBeds/master/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20210514042524.jpg)
 
