@@ -89,3 +89,52 @@ First, ensure that .NET Core scripting is your default scripting environment:
 
 This is currently necessary due to some legacy behaviors in .NET Framework-based scripting that don't work with .NET Core scripting, and Ionide is currently striving for that backwards compatibility. In the future, .NET Core scripting will become the default.
 
+
+
+### Configure Project Setting (Imported Project )
+
+In my imported project, there are two files:
+
+![image-20210607091429799](https://raw.githubusercontent.com/gggdttt/ImageBeds/master/image-20210607091429799.png)
+
+So I have to set this project in file `Applied Functional Programming.fsproj` in this way:
+
+```xml
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp5.0</TargetFramework>
+    <RootNamespace>Applied_Functional_Programming</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Trees.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FsCheck" Version="2.15.3" />
+  </ItemGroup>
+
+</Project>
+
+```
+
+What I have modified are :
+
+* `<TargetFramework>netcoreapp5.0</TargetFramework>`, you should use the command **'dotnet --version'** to check your .net version.
+* `<Compile Include="Trees.fs" />` and `<Compile Include="Program.fs" />` .  You should include the file you need here.
+
+### Run the project
+
+Then we could run the project :
+
+``` shell
+dotnet run
+```
+
+Here is my result:
+
+![image-20210607092408339](https://raw.githubusercontent.com/gggdttt/ImageBeds/master/image-20210607092408339.png)
+
