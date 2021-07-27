@@ -1,6 +1,4 @@
 ---
-
-
 layout: article
 titles:
   # @start locale config
@@ -82,4 +80,3 @@ But just enjoy the feeling of creating so many funny things with a keyboard.
 
 
 
-Info Text. {:.info}
