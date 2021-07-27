@@ -7,7 +7,7 @@ article_header:
 
 
 
-# git commit之后，想撤销commit
+
 
 写完代码后，我们一般这样
 
@@ -74,3 +74,9 @@ HEAD^的意思是上一个版本，也可以写成HEAD~1
 git commit --amend
 
 此时会进入默认vim编辑器，修改注释完毕后保存就好了。
+
+
+
+[End]()
+
+{:.info}  

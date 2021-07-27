@@ -7,7 +7,7 @@ article_header:
 
 
 
-# How to push the file(>=100M) to github
+
 
 > Now days I want to push some file of '.weight' to github. But almost all of them are over the maximum size(100M) of Github. Here is my solution to cope with this problem: 
 
@@ -54,3 +54,7 @@ https://blog.csdn.net/Tyro_java/article/details/53440666
   - `git rm bigfile.zip`
   - `git commit -m 'rm bigfile.zip'`
   - `git push`
+
+[End]()
+
+{:.info}  
