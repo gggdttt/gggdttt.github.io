@@ -82,3 +82,4 @@ But just enjoy the feeling of creating so many funny things with a keyboard.
 
 
 
+End. {:.info}
