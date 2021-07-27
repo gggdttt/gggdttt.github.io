@@ -5,7 +5,6 @@ article_header:
   type: cover
 ---
 
-# Install F# in VsCode and Run Demo Project
 ## Install Visual Studio Code and Ionide
 
 #### step1.Install .Net SDK
@@ -138,3 +137,6 @@ Here is my result:
 
 ![image-20210607092408339](https://raw.githubusercontent.com/gggdttt/ImageBeds/master/image-20210607092408339.png)
 
+[End]()
+
+{:.info}  
