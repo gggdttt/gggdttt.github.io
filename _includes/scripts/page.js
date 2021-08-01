@@ -88,5 +88,4 @@ x=window.requestAnimationFrame||window.webkitRequestAnimationFrame||window.mozRe
  
  setTimeout(function(){i()},100)
  
- }();
-})();
+ })();
