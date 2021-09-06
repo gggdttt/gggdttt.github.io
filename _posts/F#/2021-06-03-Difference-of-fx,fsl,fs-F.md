@@ -1,6 +1,6 @@
 ---
 title: Get start with FsCheck and FsCheck.Xunit
-tags: F# FsCheck FsCheck.Xunit PropertyBasedTest
+tags: F# 
 article_header:
   type: cover
 ---
@@ -14,3 +14,4 @@ ref link:[NuGet Gallery | FsCheck 2.15.3](https://www.nuget.org/packages/FsCheck
 [End]()
 
 {:.info}  
+
