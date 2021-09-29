@@ -11,7 +11,7 @@ article_header:
 
 ## Exercise 4.18
 
-```F#
+```java
 let rec f g = function
 | [] -> [] 
 | x::xs -> g x :: f (fun y -> g(g y)) xs;;
