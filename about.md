@@ -28,10 +28,6 @@ key: page-about
 
 
 
-<img src="https://raw.githubusercontent.com/gggdttt/ImageBeds/master/img/202110052347338.png" alt="image-20211005234711093" width="80%" />
-
-
-
 Hey guys, this is  Wenjie. 
 
 I like **coding**, **running**, and **Japanese anime** (especially *Gundam* and *Pikachu*). 
