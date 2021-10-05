@@ -5,10 +5,6 @@ article_header:
   type: cover
 ---
 
-
-
-# Configure Darknet YOLOv3 on Win10 + VS2019 
-
 > Reference：https://pjreddie.com/darknet/yolo/
 >
 > 这个链接是YOLO的官方网站。
