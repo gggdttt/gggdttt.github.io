@@ -5,6 +5,10 @@ article_header:
   type: cover
 ---
 
+
+
+
+
 > Reference：https://pjreddie.com/darknet/yolo/
 >
 > 这个链接是YOLO的官方网站。
@@ -46,7 +50,7 @@ article_header:
 
 * 这里我顺便给各位从来没有接触过的新手解释一下，这个路劲下的内容：
 
-  <img src="pic\1587631765569.png" alt="1587631765569" style="zoom:80%;" />
+  <img src="https://raw.githubusercontent.com/gggdttt/ImageBeds/master/img/202110051300071.png" alt="1587631765569" style="zoom:80%;" />
 
   ​	熟悉 VS的小伙伴们应该知道，`.sln`文件对应的是一个个vs项目。这里一共有5个.sln文件，对应了5种不同的在windows下的YOLO版本。
 
@@ -64,7 +68,7 @@ article_header:
 
 打开`darknet.sln`,应该会弹出如下图所示界面，如果没有就在选项卡中 项目–重定向打开，特别注意平台工具集选择无升级，且**SDK版本要选择具体的版本，不能选`最新版`**，否则选了编译会有报错。
 
-[<img src="pic\KkePSJ.png" alt="KkePSJ.png" style="zoom:80%;" />](https://imgchr.com/i/KkePSJ)
+[<img src="https://raw.githubusercontent.com/gggdttt/ImageBeds/master/img/202110051301247.png" alt="KkePSJ.png" style="zoom:80%;" />](https://imgchr.com/i/KkePSJ)
 
 #### **1.3.2** 
 
@@ -76,15 +80,17 @@ article_header:
 `.\opencv\bulid\include\opencv`
 `.\opencv\bulid\include\opencv2`
 
-<img src="pic\KkdWCQ.png" alt="KkdWCQ.png" style="zoom:80%;" />
+<img src="https://raw.githubusercontent.com/gggdttt/ImageBeds/master/img/202110051301981.png" alt="KkdWCQ.png" style="zoom:80%;" />
 
 #### **1.3.3** 配置属性–VC++目录–库目录–编辑
+
 填入`.\opencv\bulid\x64\vc14\lib`
-<img src="pic\Kkdj29.png" alt="Kkdj29.png" style="zoom:80%;" />
+<img src="https://raw.githubusercontent.com/gggdttt/ImageBeds/master/img/202110051301581.png" alt="Kkdj29.png" style="zoom:80%;" />
 
 #### **1.3.4** 链接器–输入–附加依赖项
+
 加入`.\opencv\build\x64\vc14\lib`下读者的库名字（根据opencv版本变化会有不同）
-<img src="pic\Kkwi5D.png" alt="Kkwi5D.png" style="zoom:80%;" />
+<img src="https://raw.githubusercontent.com/gggdttt/ImageBeds/master/img/202110051301766.png" alt="Kkwi5D.png" style="zoom:80%;" />
 
 ### 1.4 进行编译 
 
@@ -92,16 +98,16 @@ article_header:
 
 * 检查项目属性为Release、 x64后，右键项目重新生成即可。
 
-* <img src="pic\KkwQIS.png" alt="KkwQIS.png" style="zoom:80%;" />
+* <img src="https://raw.githubusercontent.com/gggdttt/ImageBeds/master/img/202110051301234.png" alt="KkwQIS.png" style="zoom:80%;" />
 
 * 生成结果：根据上述步骤，我的`darknet-master\build\darknet\x64`下出现了`darknet.exe`以及相关文件。
 
-  <img src="pic\1587633781005.png" alt="1587633781005" style="zoom:80%;" />
+  <img src="https://raw.githubusercontent.com/gggdttt/ImageBeds/master/img/202110051301609.png" alt="1587633781005" style="zoom:80%;" />
 
 ### 1.5 进行yolo的测试
 
 前往[Darknet Github](https://github.com/AlexeyAB/darknet/blob/master/README.md)下载训练好的模型进行测试，如下图所示，根据自己需求（可以选择YOLOV3也可以选择YOLOV3-tiny，后者更小，更适合用于实时目标检测，更符合我目前的需求）。
-<img src="pic\KkwfIO.png" alt="KkwfIO.png" style="zoom:80%;" />
+<img src="https://raw.githubusercontent.com/gggdttt/ImageBeds/master/img/202110051301690.png" alt="KkwfIO.png" style="zoom:80%;" />
 以yolov3.weights为例，
 
 进到对应目录下的cmd命令行，输入：
@@ -127,7 +133,7 @@ darknet detect cfg/yolov3.cfg yolov3.weights data/bird.jpg
 
 * 选择`X64`和`Release`之后，进行编译，编译结束之后，我们就有了这些内容：
 
-  <img src="pic\1587636665977.png" alt="1587636665977" style="zoom:80%;" />
+  <img src="https://raw.githubusercontent.com/gggdttt/ImageBeds/master/img/202110051300097.png" alt="1587636665977" style="zoom:80%;" />
 
 ### 2.2 python运行yolo
 
@@ -139,13 +145,13 @@ darknet detect cfg/yolov3.cfg yolov3.weights data/bird.jpg
 
 下面是我的python版本，换了64位的python之后就可以运行了。
 
-<img src="pic\1587637354802.png" alt="1587637354802" style="zoom:80%;" />
+<img src="https://raw.githubusercontent.com/gggdttt/ImageBeds/master/img/202110051300435.png" alt="1587637354802" style="zoom:80%;" />
 
 #### 2.2.2  给python安装必要的包
 
 其实一开始我也不知道要怎么用python运行，然后忽然发现在`\darknet-master\build\darknet\x64`文件夹下有好多`.cmd`文件，其中有个`darknet_python.cmd`，右击用文本打开之后发现了宝藏：
 
-<img src="pic\1587637913803.png" alt="1587637913803" style="zoom:80%;" />
+<img src="https://raw.githubusercontent.com/gggdttt/ImageBeds/master/img/202110051300064.png" alt="1587637913803" style="zoom:80%;" />
 
 其内容如下（我自己加了简单的注释）：
 
@@ -196,9 +202,9 @@ pip install opencv-python
 
 * 打开IDLE（3.7-64bit），`File`->`open`->`[你的darknet/darknet-master\build\darknet\x64]/darknet.py`，打开之后，选择`run`,运行之后如下：
 
-<img src="pic\1587655182498.png" alt="1587655182498" style="zoom:80%;" />
+<img src="https://raw.githubusercontent.com/gggdttt/ImageBeds/master/img/202110051300631.png" alt="1587655182498" style="zoom:80%;" />
 
-<img src="pic\1587655211829.png" alt="1587655211829" style="zoom:80%;" />
+<img src="https://raw.githubusercontent.com/gggdttt/ImageBeds/master/img/202110051300588.png" alt="1587655211829" style="zoom:80%;" />
 
 
 
