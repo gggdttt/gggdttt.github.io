@@ -28,17 +28,19 @@ key: page-about
 
 
 
+<img src="https://raw.githubusercontent.com/gggdttt/ImageBeds/master/img/202110052347338.png" alt="image-20211005234711093" width="80%" />
 
 
-Hey guys, I am Wenjie,  a 22-year-old Chinese boy. 
 
-I like **code**, **data**, and **Japanese anime** (especially *Gundam* and *Pikachu*). 
+Hey guys, this is  Wenjie. 
 
-While trying to be a typical engineering boy, I am also full of love for **Chinese classical poetry**.   
+I like **coding**, **running**, and **Japanese anime** (especially *Gundam* and *Pikachu*). 
 
-This is my private station. I want to share with you my accumulation, problems, happiness and exploration in my studies. 
+While trying to be a typical 'engineering' boy, I am also full of love for **Chinese classical poetry**.   
 
-I hope you can find resonance here, and discover these delicious cookies in life and study . 
+This is my private station. I want to share with you my accumulation and exploration. 
+
+Hope you could find resonance here, and discover these delicious 'cookies' not only for me but you in life and study . 
 
 
 
@@ -50,9 +52,9 @@ I hope you can find resonance here, and discover these delicious cookies in life
 
 大家好我是小柏。一个98年的中国男生。
 
-我喜欢代码，喜欢数据，也喜欢日本动漫（尤其高达和皮卡丘）。
+我喜欢代码，喜欢跑步，也喜欢日本动漫（尤其高达和皮卡丘）。
 
-我在扮演一个典型的工科男生同时，内心也充满了对古典诗词的喜爱。
+我在尽力扮演好一个典型的工科男生同时（笑），内心也充满了对古典诗词的喜爱。
 
  这里是我的小站。
 
@@ -64,7 +66,9 @@ I hope you can find resonance here, and discover these delicious cookies in life
 
 ---
 
-We would be more surprised than this Pikachu when we consider why the code is wrong(Sometimes it may be why it is correct. )
+We would be more surprised than this Pikachu when we consider why the code is wrong.
+
+(Sometimes it may be why it is correct. )
 
 
 
