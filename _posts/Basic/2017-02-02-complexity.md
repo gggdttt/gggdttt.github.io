@@ -1,7 +1,8 @@
 ---
 title: Time and space complexity
-tags: Basic
+tags: Algorithm
 key: basic-timeAndSpaceComplexity
+category: [algorithm，basic]
 ---
 
 > Reference :https://zhuanlan.zhihu.com/p/50479555
@@ -156,7 +157,7 @@ for(x=1; i<=m; x++)
 如果算法执行所需要的临时空间不随着某个变量n的大小而变化，即此算法空间复杂度为一个常量，可表示为 O(1)
 举例：
 
-```text
+```java
 int i = 1;
 int j = 2;
 ++i;
@@ -170,7 +171,7 @@ int m = i + j;
 
 我们先看一个代码：
 
-```text
+```java
 int[] m = new int[n]
 for(i=1; i<=n; ++i)
 {
@@ -180,3 +181,4 @@ for(i=1; i<=n; ++i)
 ```
 
 这段代码中，第一行new了一个数组出来，这个数据占用的大小为n，这段代码的2-6行，虽然有循环，但没有再分配新的空间，因此，这段代码的空间复杂度主要看第一行即可，即 S(n) = O(n)
+

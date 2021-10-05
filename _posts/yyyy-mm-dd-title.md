@@ -1,6 +1,10 @@
 ---
 title: Welcome
 tags: TeXt
+article_header:
+  type: cover
+  image:
+    src: https://github.com/gggdttt/ImageBeds/raw/master/headImage.jpg
 ---
 
 If you see this page, that means you have setup your site. enjoy! :ghost: :ghost: :ghost:

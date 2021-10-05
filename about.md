@@ -28,7 +28,7 @@ key: page-about
 
 
 
-### These are  Wenjie's Cookies~
+
 
 Hey guys, I am Wenjie,  a 22-year-old Chinese boy. 
 
