@@ -1,13 +1,14 @@
 ---
 title: Time and space complexity
 tags: Basic
+key: basic-timeAndSpaceComplexity
 ---
 
 > Reference :https://zhuanlan.zhihu.com/p/50479555
 
-## **一、时间复杂度**
+## **一、Time complexity**
 
-主要使用 T(n) = O(f(n)) 来表示时间复杂度。
+ T(n) = O(f(n)) 来表示时间复杂度。
 
 我们先来看个例子：
 
@@ -142,7 +143,7 @@ for(x=1; i<=m; x++)
 
 除此之外，其实还有 平均时间复杂度、均摊时间复杂度、最坏时间复杂度、最好时间复杂度 的分析方法，有点复杂，这里就不展开了。
 
-## **二、空间复杂度**
+## **二、Space Complexity**
 
 既然时间复杂度不是用来计算程序具体耗时的，那么我也应该明白，空间复杂度也不是用来计算程序实际占用的空间的。
 
