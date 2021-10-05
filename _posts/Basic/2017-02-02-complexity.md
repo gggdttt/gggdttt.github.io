@@ -1,8 +1,8 @@
 ---
 title: Time and space complexity
-tags: Algorithm
+tags: Algorithms
 key: basic-timeAndSpaceComplexity
-category: [algorithm，basic]
+category: [algorithm,basic]
 ---
 
 > Reference :https://zhuanlan.zhihu.com/p/50479555
