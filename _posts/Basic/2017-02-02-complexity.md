@@ -1,7 +1,10 @@
 ---
 title: Time and space complexity
 tags: Algorithms
+date:   2017-02-02 16:01:40 +0800
 key: basic-timeAndSpaceComplexity
+aside:
+  toc: true
 category: [tool,blog]
 ---
 
