@@ -1,8 +1,13 @@
 ---
 title: How to Build Development Environment
-tags: Embedded Raspberry
+tags: EmbeddedDevelopment Raspberry
 article_header:
   type: cover
+key: Tool-buildDevelopmentEnvironment
+aside:
+  toc: true
+category: [Tool,RaspberryPi]
+date:   2020-04-10 16:01:40 +0800
 ---
 
 ## 1. 树莓派连接

@@ -1,8 +1,13 @@
 ---
 title: Configure Darknet YOLOv3 on Win10 + VS2019 
-tags: Yolo CV
+tags: CV
 article_header:
   type: cover
+key: Note-configureDarknetYolov3
+aside:
+  toc: true
+category: [Note,CV]
+date:   2020-04-15 16:01:40 +0800
 ---
 
 
