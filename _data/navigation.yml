@@ -2,8 +2,8 @@ header:
   - title:      Github
     url:        https://github.com/gggdttt
     
-  - title:      Course
-    url:        /assets/category/course.html
+  - title:      Note
+    url:        /assets/category/note.html
 
   - title:      Algorithm
     url:        /assets/category/algorithm.html
