@@ -1,0 +1,23 @@
+---
+layout: articles
+titles:
+    en:       Algorithm
+    zh:       算法
+    zh-Hans:  算法
+    zh-Hant:  算法
+sidebar:
+    nav: Algorithm
+---
+
+
+<ul>
+    {% for cat in site.categories %}
+        {% if cat[0] == "Algorithm" %}
+        {% for post in cat[1] %}
+        {{post.date | date:"%d/%m/%Y"}}
+        <font size="3"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>
+        <br>
+        {% endfor %}
+        {% endif %}
+    {% endfor %}
+</ul>
