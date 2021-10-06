@@ -1,5 +1,19 @@
 header:
   - titles:
+      en      : &EN       Algorithm
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      zh-Hans : &ZH_HANS  算法
+      zh      : *ZH_HANS
+      zh-CN   : *ZH_HANS
+      zh-SG   : *ZH_HANS
+      zh-Hant : &ZH_HANT  
+      zh-TW   : *ZH_HANT
+      zh-HK   : *ZH_HANT
+  url:/assets/category/algorithm/basic/basic.html
+  - titles:
       # @start locale config
       en      : &EN       Archive
       en-GB   : *EN
@@ -48,10 +62,3 @@ header:
       fr-LU   : *FR
       # @end locale config
     url: /about.html
-TOOL:                                                    
-  - title:      算法                                      
-    children:
-      - title:  Basic Knowledge                                      
-        url:    /assets/category/algorithm/basic/basic.html   
-      - title:  Leetcode                                      
-        url:    /assets/category/algorithm/basic/basic.html  
