@@ -1,18 +1,18 @@
 ---
 layout: articles
 titles:
-    en:       Algorithm
-    zh:       算法
-    zh-Hans:  算法
-    zh-Hant:  算法
+    en:       Basic
+    zh:       算法基础
+    zh-Hans:  算法基础
+    zh-Hant:  算法基础
 sidebar:
-    nav: Algorithm
+    nav: Basic
 ---
 
 
 <ul>
     {% for cat in site.categories %}
-        {% if cat[0] == "Algorithm" %}
+        {% if cat[0] == "Basic" %}
         {% for post in cat[1] %}
         {{post.date | date:"%d/%m/%Y"}}
         <font size="3"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>
