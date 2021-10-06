@@ -12,7 +12,7 @@ header:
       zh-Hant : &ZH_HANT  
       zh-TW   : *ZH_HANT
       zh-HK   : *ZH_HANT
-  url:/assets/category/algorithm/basic/basic.html
+  url:/assets/category/algorithm/algorithm.html
   - titles:
       # @start locale config
       en      : &EN       Archive
