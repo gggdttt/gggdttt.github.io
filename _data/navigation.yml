@@ -1,4 +1,5 @@
 header:
+
   - titles:
       en      : &EN       Algorithm
       en-GB   : *EN
@@ -12,7 +13,22 @@ header:
       zh-Hant : &ZH_HANT  
       zh-TW   : *ZH_HANT
       zh-HK   : *ZH_HANT
-  url:/assets/category/algorithm/algorithm.html
+  url: /assets/category/algorithm.html
+
+  - titles:
+      en      : &EN       Tool
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      zh-Hans : &ZH_HANS  工具
+      zh      : *ZH_HANS
+      zh-CN   : *ZH_HANS
+      zh-SG   : *ZH_HANS
+      zh-Hant : &ZH_HANT  
+      zh-TW   : *ZH_HANT
+      zh-HK   : *ZH_HANT
+  url: /assets/category/tool.html
   - titles:
       # @start locale config
       en      : &EN       Archive
