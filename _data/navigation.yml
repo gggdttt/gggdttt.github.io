@@ -19,3 +19,29 @@ header:
     
   - title:      About
     url:        /about.html
+
+Note:
+  - title:      Programming Language
+    children:
+      - title:  F#
+        url:    /assets/category/note/f#.html
+      - title:  Python
+        url:    /assets/category/note/python.html
+      - title:  Java
+        url:    /assets/category/note/java.html
+        
+  - title:      Courses At DTU
+    children:
+      - title:  DataSecurity
+        url:    /assets/category/note/data_security.html
+
+Algorithm:
+  - title:      Algorithm
+    children:
+      - title:  Basic Knowledge
+        url:    /assets/category/algorithm/basic.html
+      - title:  Leetcode
+        url:    /assets/category/algorithm/leetcode.html
+        
+        
+        
