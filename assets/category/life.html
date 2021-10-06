@@ -1,0 +1,23 @@
+---
+layout: articles
+titles:
+    en:       Life
+    zh:       生活积累
+    zh-Hans:  生活积累
+    zh-Hant:  生活积累
+sidebar:
+    nav: Life
+---
+
+
+<ul>
+    {% for cat in site.categories %}
+        {% if cat[0] == "Life" %}
+        {% for post in cat[1] %}
+        {{post.date | date:"%d/%m/%Y"}}
+        <font size="3"><a href={{post.url}} title={{ cat[0] }}>{{post.title}}</a></font>
+        <br>
+        {% endfor %}
+        {% endif %}
+    {% endfor %}
+</ul>
