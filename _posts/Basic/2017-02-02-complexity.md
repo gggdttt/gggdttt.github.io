@@ -2,7 +2,7 @@
 title: Time and space complexity
 tags: Algorithms
 key: basic-timeAndSpaceComplexity
-category: [algorithm,basic]
+category: [tool,blog]
 ---
 
 > Reference :https://zhuanlan.zhihu.com/p/50479555

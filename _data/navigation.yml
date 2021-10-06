@@ -48,8 +48,10 @@ header:
       fr-LU   : *FR
       # @end locale config
     url: /about.html
-Algorithm:                                                    
+TOOL:                                                    
   - title:      算法                                      
     children:
-      - title:  Basic                                      
-        url:    /assets/category/algorithm/basic/basic.html     
+      - title:  Basic Knowledge                                      
+        url:    /assets/category/algorithm/basic/basic.html   
+      - title:  Leetcode                                      
+        url:    /assets/category/algorithm/basic/basic.html  
