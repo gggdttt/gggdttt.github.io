@@ -1,8 +1,13 @@
 ---
-title: git clone 时显示Filename too long的解决办法
+title: Solution to Filename Too Long when Git Clone 
 tags: git
 article_header:
   type: cover
+date:   2021-07-24 16:01:40 +0800
+key: Git-gitFileNameTooLong
+aside:
+  toc: true
+category: [Tool,Git]
 ---
 
 

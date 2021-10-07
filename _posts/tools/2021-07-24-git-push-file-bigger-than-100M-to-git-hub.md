@@ -3,6 +3,11 @@ title: How to push the file(>=100M) to github
 tags: git
 article_header:
   type: cover
+date:   2021-07-24 16:01:40 +0800
+key: Git-push100MFile
+aside:
+  toc: true
+category: [Tool,Git]
 ---
 
 

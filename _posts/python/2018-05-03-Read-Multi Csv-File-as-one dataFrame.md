@@ -3,6 +3,11 @@ title: Python:Read Multi Csv File as one dataFrame
 tags: Python 
 article_header:
   type: cover
+date:   2018-05-03 16:01:40 +0800
+key: python-readMultiCsv
+aside:
+  toc: true
+category: [Note,Python]
 ---
 
 

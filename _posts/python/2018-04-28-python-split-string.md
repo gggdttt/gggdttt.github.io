@@ -3,6 +3,11 @@ title: Python:Split string with multi-operator
 tags: Python 
 article_header:
   type: cover
+date:   2018-04-28 16:01:40 +0800
+key: python-splitString
+aside:
+  toc: true
+category: [Note,Python]
 ---
 
 

@@ -3,6 +3,11 @@ title: Read All Csv files in the same file folder
 tags: Python Pandas
 article_header:
   type: cover
+date:   2020-05-09 16:01:40 +0800
+key: python-readAllCsvInOneFolder
+aside:
+  toc: true
+category: [Note,Python]
 ---
 
 We need use the lib `glob`. According to it we could get all the files' names.

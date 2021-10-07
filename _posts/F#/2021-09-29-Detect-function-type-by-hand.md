@@ -3,11 +3,16 @@ title: How to detect function's type by hand
 tags: F#
 article_header:
   type: cover
+date:   2021-09-29 16:01:40 +0800
+key: Note-DetectTypeByHand
+aside:
+  toc: true
+category: [Note,F#]
 ---
 
 
 
-# 《Functional Programming Using F#》
+This exercise is on book《Functional Programming Using F#》.
 
 ## Exercise 4.18
 

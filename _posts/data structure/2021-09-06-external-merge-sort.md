@@ -3,10 +3,14 @@ title: External merge sort
 tags: Algorithms DataStructure
 article_header:
   type: cover
-
+date:   2021-09-06 16:01:40 +0800
+key: Algorithms-externalMergeSort
+aside:
+  toc: true
+category: [Algorithm, DataModel]
 ---
 
-# 外部排序算法
+
 
 插入排序、选择排序、归并排序等等，这些算法都属于内部排序算法，即排序的整个过程<u>*只是在内存*</u>中完成。而当待排序的文件比内存的可使用容量还大时，文件无法一次性放到内存中进行排序，需要借助于外部存储器（例如硬盘、U盘、光盘），这时就需要用到本章介绍的外部排序算法来解决。
 

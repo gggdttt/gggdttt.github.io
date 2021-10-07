@@ -3,6 +3,11 @@ title: Install F# in VsCode and Run Demo Project
 tags: VsCode F#
 article_header:
   type: cover
+date:   2021-06-02 16:01:40 +0800
+key: Note-installF#
+aside:
+  toc: true
+category: [Note,F#]
 ---
 
 ## Install Visual Studio Code and Ionide

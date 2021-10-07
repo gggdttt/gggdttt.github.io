@@ -1,8 +1,13 @@
 ---
-title: git commit之后，想撤销commit
+title: Git Cancel Commit
 tags: git
 article_header:
   type: cover
+date:   2021-07-24 16:01:40 +0800
+key: Git-gitCancelCommit
+aside:
+  toc: true
+category: [Tool,Git]
 ---
 
 

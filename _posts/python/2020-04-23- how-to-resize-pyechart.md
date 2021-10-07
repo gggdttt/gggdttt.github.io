@@ -1,8 +1,13 @@
 ---
-title: echarts 调整图表大小的方法
+title: echarts setting size
 ags: Python Pyechart
 article_header:
   type: cover
+date:   2020-04-23 16:01:40 +0800
+key: python-echartsSettingSize
+aside:
+  toc: true
+category: [Note,Python]
 ---
 
 

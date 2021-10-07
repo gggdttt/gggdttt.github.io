@@ -3,6 +3,11 @@ title: Get start with FsCheck and FsCheck.Xunit
 tags: F# 
 article_header:
   type: cover
+date:   2021-06-03 16:01:40 +0800
+key: F#-FsCheckAndXunit
+aside:
+  toc: true
+category: [Note,F#]
 ---
 
 

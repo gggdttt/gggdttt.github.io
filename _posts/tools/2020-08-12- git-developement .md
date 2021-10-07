@@ -1,8 +1,13 @@
 ---
-title: 软件工程实践之 Git
+title: Development with Git
 tags: git
 article_header:
   type: cover
+date:   2020-08-12 16:01:40 +0800
+key: python-devWithGit
+aside:
+  toc: true
+category: [Tool,Git]
 ---
 
 

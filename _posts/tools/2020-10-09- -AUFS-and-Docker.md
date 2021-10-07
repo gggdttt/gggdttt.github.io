@@ -3,6 +3,11 @@ title: 利用AUFS和Docker搭建多个私有开发环境
 tags: AUFS Docker
 article_header:
   type: cover
+date:   2020-10-09 16:01:40 +0800
+key: python-echartsSettingSize
+aside:
+  toc: true
+category: [Tool,Docker]
 ---
 
 
