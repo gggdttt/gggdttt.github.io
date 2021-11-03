@@ -1,4 +1,13 @@
 ---
+
+---
+
+
+
+## 1. Define a remote interface
+
+
+
 title: RMI Authentication
 tags: Java, DataSecurity
 article_header:
@@ -8,11 +17,3 @@ key: Java-RMIAuthentication
 aside:
   toc: true
 category: [Note,Java]
----
-
-
-
-## 1. Define a remote interface
-
-
-
