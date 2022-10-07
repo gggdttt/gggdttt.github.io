@@ -28,7 +28,9 @@ key: page-about
 
 
 
-### Hey guys :P 
+### 
+
+Hey guys :P  This is Wenjie.
 
 I like **coding**, **running**, and **Japanese anime** (especially *Gundam* and *Pikachu*). 
 
